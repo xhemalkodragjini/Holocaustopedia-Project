@@ -1,0 +1,274 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*************************Navbar*************************/
+.navbar {
+  z-index: 10;
+}
+
+.navbar {
+  background-color: #fffef8;
+}
+
+.navbar-brand {
+  font-family: "Comfortaa", cursive;
+}
+
+.nav-item a {
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.nav-item a:hover {
+  color: #b13e43;
+}
+
+/********************End of Navbar********************/
+
+/************************* Welcome Section *****************/
+
+#welcome-section {
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: scroll;
+}
+
+#welcome-section h1 {
+  padding-top: 200px;
+  color: #fffef8;
+  font-size: 150%;
+  text-shadow: 0.5px 0.5px 10px rgb(58, 56, 56);
+  font-weight: 200;
+}
+
+#welcome-section h2 {
+  color: #fffef8;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px 10px rgb(58, 56, 56);
+  padding-bottom: 150px;
+}
+/************************* End of Welcome Section *****************/
+
+/*****************About Section*******************/
+#about-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about-section .container h1 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#about-section .container hr.line-new {
+  border: 1px solid #b13e43;
+  width: 90px;
+  margin-bottom: 50px;
+}
+
+#about-section .container .lead {
+  font-size: 15px;
+}
+
+#about-section a {
+  margin-left: 60%;
+  margin-top: 10px;
+  text-decoration: none;
+}
+#about-section .container .btn {
+  color: #fffef8;
+  background-color: #b13e43;
+  font-size: 13px;
+  display: inline-block;
+  border-radius: 2px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px 40px 10px 40px;
+}
+
+/*****************End of About Section*******************/
+/*****************Articles Section*********************/
+.articles-1 {
+  padding-top: 100px;
+}
+
+#articles {
+  background-color: #e7e2d4;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+#articles .card .btn {
+  width: 100%;
+  margin: 0;
+  color: #fffef8;
+  background-color: #b13e43;
+  font-size: 13px;
+  display: inline-block;
+}
+
+#articles .articles-title {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#articles .articles-1 h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 150px;
+  color: #1b1b16;
+  font-size: 40px !important;
+  font-weight: 400;
+}
+
+hr.line-new {
+  border: 1px solid #b13e43;
+  width: 90px;
+  margin-bottom: 50px;
+}
+
+#articles .btn-md {
+  color: #fffef8;
+  background-color: #b13e43;
+  font-size: 13px;
+  display: inline-block;
+  border-radius: 2px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px 40px 10px 40px;
+  margin-left: 60%;
+  margin-bottom: 30px;
+}
+/********************End of Articles Section****************/
+
+/*******************Footer*********************/
+footer .container-fluid {
+  background-color: rgb(37, 32, 32);
+}
+
+footer h4 {
+  font-size: 15px;
+  color: #e7e2d4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/******************End of Footer**********************/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .nav-item {
+    margin-left: 3rem;
+  }
+
+  #welcome-section h1 {
+    padding-top: 250px;
+    font-size: 300%;
+  }
+
+  #welcome-section h2 {
+    font-size: 20px;
+    padding-bottom: 200px;
+  }
+
+  #about-section .container h1 {
+    font-size: 25px;
+  }
+
+  #about-section .container .lead {
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #about-section .container a {
+    margin-left: 80%;
+  }
+  #articles .articles-title {
+    font-size: 25px;
+  }
+
+  #articles .btn-md {
+    margin-left: 80%;
+  }
+
+  footer h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/*Single Article Page*/
+#title-article {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+#title-article h1 {
+  border-left: 5px solid black;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.article-content {
+  margin-top: 50px;
+}
+
+#article-content p {
+  margin-bottom: 30px;
+}
+
+#article-content h5 {
+  border-left: 2px solid black;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#article-content img {
+  width: 100%;
+}
+
+#extra-articles .card {
+  margin-bottom: 40px;
+}
+
+#extra-articles h5 {
+  margin-bottom: 40px;
+}
+
+#extra-articles .card-text {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: black;
+  margin-bottom: 5px;
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 768px) {
+  #extra-articles {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
